@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cnl Ciro Mealla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <body bgcolor="#B1D3FA"
+
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="https://www.facebook.com/CiroMeallaOficial" target="_blank" class="logo">Ciro Mealla</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Inicio</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2 class="h2-sub">
+                <span class="fil">B</span>IENVENIDO
+            </h2>
+            <h1 class="head">U.E. MODULO TECNOLOGICA PRODUCTIVA</h1>
+            <div class="he-des">
+                <h5>Donde tendras una de las mejores experiencia en atención</h5>
+                <a href="#" class="btn cta-btn">Explora mas sobre nosotros</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="dis-sto">
+        <div class="container">
+            <div class="res-info">
+                <div>
+                    <img src="img/35.jpeg" alt="">
+                </div>
+            
+                <div class="res-des pad-rig">
+                    <div class="global">
+                        <h2 class="h2-sub">
+                            <span class="fil">D</span>escubre
+                        </h2>
+                        <h1 class="head hea-dark">Nuestra Historia</h1>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <p>
+                        Nuestro colegio viene ya 3 años trabajando como microempresa en servicio
+                        a la comunidad ofreciendo multiples servicios de mantenimiento a sus computadoras.
+                    </p>
+                    <a href="historia.html" target="_blank" class="btn cta-btn">Nosotros</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="disco">
+        <div class="container">
+            <div class="res-info">
+                <div class="res-des">
+                    <div class="global">
+                        <h2 class="h2-sub">
+                            <span class="fil">D</span>escubre
+                        </h2>
+                        <h1 class="head hea-dark">Nuestra variedad de servicios tecnicos</h1>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <div id="id-element">
+                    <p>
+                        <ul>
+                            <li>Formateo Windows 7, 8, 10, 11.</li>
+                            <li>Instalación de programas drivers (controladores)</li>
+                            <li>Instalación de todo tipo de programas</li>
+                            <li>Instalación de antivirus para PC de 32 y 64 bits</li>
+                            <li>Se realizan particiones de disco duro en Windows 7, 8 , 10, 11</li>
+                            <li>Instalación de office 2016, 2019, 2021</li>
+                            <li>Trabajo de limpieza y mantenimiento de computadoras</li>
+                            <li>Cambio de pantalla</li>
+                            <li>Se bajan músicas y videos</li>
+                            <li>Actualización de PC de Windows 10 a Windows 11</li>
+                        </ul>.
+                    </p>
+                    </div>
+                    <a href="https://wa.me/59163296618?text=Hola%20nesecito%20información" class="btn cta-btn">Haz tu cita</a>
+                </div>
+                <div class="image-group pad-rig">
+                    <img src="img/5.jpeg" alt="">
+                    <img src="img/2.jpeg" alt="">
+                    <img src="img/64.jpeg" alt="">
+                    <img src="img/29.jpeg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-content-about">
+                    <h4>Nosotros</h4>
+                    <div class="circle">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <p>Somos estudiantes en busca del exito, para ello nos esforzamos día a día
+                       buscando aprender mas y mas, para ello hacemos trabajos para ganar experiencia.
+                    </p>
+                </div>
+                <div class="footer-div">
+                    <div class="social-media">
+                        <h4>Siguenos</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com/CiroMeallaOficial"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Reclamos</h4>
+                        <form action="" class="news-form">
+                            <input type="text" class="news-input"
+                            placeholder="Escribe tu problema"
+                            >
+                            <button class="news-btn" type="submit">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        const selectElement = function(element) {
+            return document.querySelector(element);
+        }
+
+
+        let menuToggle = selectElement('.menu-toggle');
+        let body = selectElement('body');
+
+        menuToggle.addEventListener('click', function(){
+            body.classList.toggle('open');
+        })
+
+    </script>
+
+    
+</body>
+</html>
